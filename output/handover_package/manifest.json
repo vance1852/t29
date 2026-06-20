@@ -1,0 +1,261 @@
+{
+  "entries": [
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_access.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-15\\access_log\\S001_2026-06-15_access_log_001.txt",
+      "target_rel": "S001/2026-06-15/access_log/S001_2026-06-15_access_log_001.txt",
+      "content_hash": "7297af5182209ea3ea44f7963d04362fc531f88c57139aaa9004930f740df23f",
+      "store_id": "S001",
+      "date": "2026-06-15",
+      "material_type": "access_log",
+      "original_filename": "S001_2026-06-15_access.txt",
+      "new_filename": "S001_2026-06-15_access_log_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_counter.jpg",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-15\\counter_photo\\S001_2026-06-15_counter_photo_001.jpg",
+      "target_rel": "S001/2026-06-15/counter_photo/S001_2026-06-15_counter_photo_001.jpg",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "store_id": "S001",
+      "date": "2026-06-15",
+      "material_type": "counter_photo",
+      "original_filename": "S001_2026-06-15_counter.jpg",
+      "new_filename": "S001_2026-06-15_counter_photo_001.jpg"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_duty.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-15\\duty_note\\S001_2026-06-15_duty_note_001.txt",
+      "target_rel": "S001/2026-06-15/duty_note/S001_2026-06-15_duty_note_001.txt",
+      "content_hash": "d1c1f5085ad8a24758333c2755b3ccacb58d9c5945d64e7cb959ad3ba57347ce",
+      "store_id": "S001",
+      "date": "2026-06-15",
+      "material_type": "duty_note",
+      "original_filename": "S001_2026-06-15_duty.txt",
+      "new_filename": "S001_2026-06-15_duty_note_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_exception.json",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-15\\exception_register\\S001_2026-06-15_exception_register_001.json",
+      "target_rel": "S001/2026-06-15/exception_register/S001_2026-06-15_exception_register_001.json",
+      "content_hash": "865953f60b2c6b2dc4cbf606ac94753f6db4a2332254e697601dd4004098e572",
+      "store_id": "S001",
+      "date": "2026-06-15",
+      "material_type": "exception_register",
+      "original_filename": "S001_2026-06-15_exception.json",
+      "new_filename": "S001_2026-06-15_exception_register_001.json"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-15\\sensor_csv\\S001_2026-06-15_sensor_csv_001.csv",
+      "target_rel": "S001/2026-06-15/sensor_csv/S001_2026-06-15_sensor_csv_001.csv",
+      "content_hash": "7446c953e7fa122772140ee7cb1206f1b3a43c99104c3fd68daac97a48573ec5",
+      "store_id": "S001",
+      "date": "2026-06-15",
+      "material_type": "sensor_csv",
+      "original_filename": "S001_2026-06-15_sensor.csv",
+      "new_filename": "S001_2026-06-15_sensor_csv_001.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_access.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-16\\access_log\\S001_2026-06-16_access_log_001.txt",
+      "target_rel": "S001/2026-06-16/access_log/S001_2026-06-16_access_log_001.txt",
+      "content_hash": "fd51f358692a3d27d9928c69fcab85838cdc46fa8330b3f34c1098aad970e7f1",
+      "store_id": "S001",
+      "date": "2026-06-16",
+      "material_type": "access_log",
+      "original_filename": "S001_2026-06-16_access.txt",
+      "new_filename": "S001_2026-06-16_access_log_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_duty.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-16\\duty_note\\S001_2026-06-16_duty_note_001.txt",
+      "target_rel": "S001/2026-06-16/duty_note/S001_2026-06-16_duty_note_001.txt",
+      "content_hash": "c90f10968d3fae15702fc50a1a71cbb2184690e98ee6c17de54e3106313d9b21",
+      "store_id": "S001",
+      "date": "2026-06-16",
+      "material_type": "duty_note",
+      "original_filename": "S001_2026-06-16_duty.txt",
+      "new_filename": "S001_2026-06-16_duty_note_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-16\\sensor_csv\\S001_2026-06-16_sensor_csv_001.csv",
+      "target_rel": "S001/2026-06-16/sensor_csv/S001_2026-06-16_sensor_csv_001.csv",
+      "content_hash": "29cb6d209a6d0b203b7b18bc9bcd3773f8d5617acdd7ffaea96dc108c7c01b81",
+      "store_id": "S001",
+      "date": "2026-06-16",
+      "material_type": "sensor_csv",
+      "original_filename": "S001_2026-06-16_sensor.csv",
+      "new_filename": "S001_2026-06-16_sensor_csv_001.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_access.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-15\\access_log\\S002_2026-06-15_access_log_001.txt",
+      "target_rel": "S002/2026-06-15/access_log/S002_2026-06-15_access_log_001.txt",
+      "content_hash": "5d056b46ff6e2ba160f466e8a662d0cfeea9460fde27c0e20ac5047f17736a50",
+      "store_id": "S002",
+      "date": "2026-06-15",
+      "material_type": "access_log",
+      "original_filename": "S002_2026-06-15_access.txt",
+      "new_filename": "S002_2026-06-15_access_log_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_duty.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-15\\duty_note\\S002_2026-06-15_duty_note_001.txt",
+      "target_rel": "S002/2026-06-15/duty_note/S002_2026-06-15_duty_note_001.txt",
+      "content_hash": "6e513a272acc7705f0330d10ae21006f2e99f8cd9ba7d89453c6151f6c20bb54",
+      "store_id": "S002",
+      "date": "2026-06-15",
+      "material_type": "duty_note",
+      "original_filename": "S002_2026-06-15_duty.txt",
+      "new_filename": "S002_2026-06-15_duty_note_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-15\\sensor_csv\\S002_2026-06-15_sensor_csv_001.csv",
+      "target_rel": "S002/2026-06-15/sensor_csv/S002_2026-06-15_sensor_csv_001.csv",
+      "content_hash": "a9d21937359f06d20d24b05c5611ad17ceca8606fde69a352f72a1f5d8920809",
+      "store_id": "S002",
+      "date": "2026-06-15",
+      "material_type": "sensor_csv",
+      "original_filename": "S002_2026-06-15_sensor.csv",
+      "new_filename": "S002_2026-06-15_sensor_csv_001.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_access.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-16\\access_log\\S002_2026-06-16_access_log_001.txt",
+      "target_rel": "S002/2026-06-16/access_log/S002_2026-06-16_access_log_001.txt",
+      "content_hash": "dc6ac5ce5febb9bf4a248603058d7b0b1ecbe173d381180376fae3c2791e756d",
+      "store_id": "S002",
+      "date": "2026-06-16",
+      "material_type": "access_log",
+      "original_filename": "S002_2026-06-16_access.txt",
+      "new_filename": "S002_2026-06-16_access_log_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_duty.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-16\\duty_note\\S002_2026-06-16_duty_note_001.txt",
+      "target_rel": "S002/2026-06-16/duty_note/S002_2026-06-16_duty_note_001.txt",
+      "content_hash": "535b638caab98239c434a1686daa99bcc00ce7d42c67eca7cd297b8e9ddd3f85",
+      "store_id": "S002",
+      "date": "2026-06-16",
+      "material_type": "duty_note",
+      "original_filename": "S002_2026-06-16_duty.txt",
+      "new_filename": "S002_2026-06-16_duty_note_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_exception.json",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-16\\exception_register\\S002_2026-06-16_exception_register_001.json",
+      "target_rel": "S002/2026-06-16/exception_register/S002_2026-06-16_exception_register_001.json",
+      "content_hash": "12b8073261e0fe3822e8b5b7165ffa356d249031a8a68db2649590024459a838",
+      "store_id": "S002",
+      "date": "2026-06-16",
+      "material_type": "exception_register",
+      "original_filename": "S002_2026-06-16_exception.json",
+      "new_filename": "S002_2026-06-16_exception_register_001.json"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-16\\sensor_csv\\S002_2026-06-16_sensor_csv_001.csv",
+      "target_rel": "S002/2026-06-16/sensor_csv/S002_2026-06-16_sensor_csv_001.csv",
+      "content_hash": "ee3b08709ebcda13ad29c639d06da8fc18d324da0e37371d169c5ec2bdaee36a",
+      "store_id": "S002",
+      "date": "2026-06-16",
+      "material_type": "sensor_csv",
+      "original_filename": "S002_2026-06-16_sensor.csv",
+      "new_filename": "S002_2026-06-16_sensor_csv_001.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor_extra.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S002\\2026-06-16\\sensor_csv\\S002_2026-06-16_sensor_csv_002.csv",
+      "target_rel": "S002/2026-06-16/sensor_csv/S002_2026-06-16_sensor_csv_002.csv",
+      "content_hash": "ac16e17460296390c45b25b73ce3c57ad75b97336271c479bb45a277e9b70485",
+      "store_id": "S002",
+      "date": "2026-06-16",
+      "material_type": "sensor_csv",
+      "original_filename": "S002_2026-06-16_sensor_extra.csv",
+      "new_filename": "S002_2026-06-16_sensor_csv_002.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_access.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S003\\2026-06-15\\access_log\\S003_2026-06-15_access_log_001.txt",
+      "target_rel": "S003/2026-06-15/access_log/S003_2026-06-15_access_log_001.txt",
+      "content_hash": "81c428808fc191f01d59d514cb1f3fe0374e037645ef929be975a46000f24620",
+      "store_id": "S003",
+      "date": "2026-06-15",
+      "material_type": "access_log",
+      "original_filename": "S003_2026-06-15_access.txt",
+      "new_filename": "S003_2026-06-15_access_log_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_duty.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S003\\2026-06-15\\duty_note\\S003_2026-06-15_duty_note_001.txt",
+      "target_rel": "S003/2026-06-15/duty_note/S003_2026-06-15_duty_note_001.txt",
+      "content_hash": "02ee7f18ec4704abf0e4692a8c49e3e33b34332d98b0cdfea06e9899b11960bd",
+      "store_id": "S003",
+      "date": "2026-06-15",
+      "material_type": "duty_note",
+      "original_filename": "S003_2026-06-15_duty.txt",
+      "new_filename": "S003_2026-06-15_duty_note_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S003\\2026-06-15\\sensor_csv\\S003_2026-06-15_sensor_csv_001.csv",
+      "target_rel": "S003/2026-06-15/sensor_csv/S003_2026-06-15_sensor_csv_001.csv",
+      "content_hash": "0d66e702ea578a4550eaebd4134874365fabc0530d9cf8017a721b0a00617b33",
+      "store_id": "S003",
+      "date": "2026-06-15",
+      "material_type": "sensor_csv",
+      "original_filename": "S003_2026-06-15_sensor.csv",
+      "new_filename": "S003_2026-06-15_sensor_csv_001.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_access.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S003\\2026-06-16\\access_log\\S003_2026-06-16_access_log_001.txt",
+      "target_rel": "S003/2026-06-16/access_log/S003_2026-06-16_access_log_001.txt",
+      "content_hash": "95f30c2980d0525bd0fe26df0f41211871d5f9a9e99fd922b952a767d16bbf14",
+      "store_id": "S003",
+      "date": "2026-06-16",
+      "material_type": "access_log",
+      "original_filename": "S003_2026-06-16_access.txt",
+      "new_filename": "S003_2026-06-16_access_log_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_duty.txt",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S003\\2026-06-16\\duty_note\\S003_2026-06-16_duty_note_001.txt",
+      "target_rel": "S003/2026-06-16/duty_note/S003_2026-06-16_duty_note_001.txt",
+      "content_hash": "a4d3d06ac23a17d695aad333af4bfc9b31474fab30da364766cfb733f80b2b31",
+      "store_id": "S003",
+      "date": "2026-06-16",
+      "material_type": "duty_note",
+      "original_filename": "S003_2026-06-16_duty.txt",
+      "new_filename": "S003_2026-06-16_duty_note_001.txt"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S003\\2026-06-16\\sensor_csv\\S003_2026-06-16_sensor_csv_001.csv",
+      "target_rel": "S003/2026-06-16/sensor_csv/S003_2026-06-16_sensor_csv_001.csv",
+      "content_hash": "4235cbd21b10fe0edc8bd13addb4338afb7a6d7398cc7e7e722f5f9cb328c8ab",
+      "store_id": "S003",
+      "date": "2026-06-16",
+      "material_type": "sensor_csv",
+      "original_filename": "S003_2026-06-16_sensor.csv",
+      "new_filename": "S003_2026-06-16_sensor_csv_001.csv"
+    },
+    {
+      "source_path": "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv",
+      "target_path": "E:\\solo2\\projects\\t29\\output\\S001\\2026-06-16\\sensor_csv\\S001_2026-06-16_sensor_csv_002.csv",
+      "target_rel": "S001/2026-06-16/sensor_csv/S001_2026-06-16_sensor_csv_002.csv",
+      "content_hash": "698547cfdf349f232f4cee743b7c63f81e0a50316ec7845e484f027ad9b88478",
+      "store_id": "S001",
+      "date": "2026-06-16",
+      "material_type": "sensor_csv",
+      "original_filename": "sensor_2026-06-16.csv",
+      "new_filename": "S001_2026-06-16_sensor_csv_002.csv"
+    }
+  ],
+  "timestamp": "2026-06-20T22:18:36.794130",
+  "cutoff_hour": 6,
+  "original_count": 41,
+  "deduped_count": 23
+}

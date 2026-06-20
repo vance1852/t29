@@ -1,0 +1,10 @@
+[
+  {
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "type": "冰柜报警",
+    "description": "冰柜温度异常升高",
+    "device_id": "FREEZER-0001",
+    "reported_by": "值班员张三"
+  }
+]

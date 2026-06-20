@@ -1,0 +1,10 @@
+[
+  {
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "type": "门禁异常",
+    "description": "闭店后检测到开门记录",
+    "device_id": "",
+    "reported_by": "值班员李四"
+  }
+]

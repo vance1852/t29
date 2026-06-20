@@ -1,0 +1,573 @@
+[
+  {
+    "severity": "blocking",
+    "rule_id": "R001",
+    "description": "文件缺少门店编号: photo_night_2026-06-16_0100.jpg",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\photo_night_2026-06-16_0100.jpg"
+    ],
+    "suggestion": "请手动补充门店编号",
+    "store_id": null,
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\photo_night_2026-06-16_0100.jpg"
+  },
+  {
+    "severity": "blocking",
+    "rule_id": "R001",
+    "description": "文件缺少门店编号: random_file_2026-06-15.dat",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\random_file_2026-06-15.dat"
+    ],
+    "suggestion": "请手动补充门店编号",
+    "store_id": null,
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\random_file_2026-06-15.dat"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R004",
+    "description": "门店 S001 日期 2026-06-15 传感器超阈值: FREEZER-A01 冰柜温度=-2.2",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查传感器是否正常工作",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R004",
+    "description": "门店 S001 日期 2026-06-15 传感器超阈值: FREEZER-A01 冰柜温度=-3.1",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查传感器是否正常工作",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "blocking",
+    "rule_id": "R005",
+    "description": "门店 S001 日期 2026-06-15 冰柜连续超温: FREEZER-A01 从 2026-06-16 00:30:00 起连续 2 条超温 (>-15°C)",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "立即检查冰柜设备，确认食品是否安全",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-15 电表异常: METER-A01 电表倒退: 2026-06-15 22:00:00=1866.6 -> 2026-06-15 22:30:00=1838.1",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-15 电表异常: METER-A01 电表倒退: 2026-06-15 22:30:00=1838.1 -> 2026-06-15 23:00:00=1498.2",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-15 电表异常: METER-A01 电表倒退: 2026-06-15 23:30:00=1667.0 -> 2026-06-16 00:00:00=1093.2",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-15 电表异常: METER-A01 电表倒退: 2026-06-16 02:00:00=1981.4 -> 2026-06-16 02:30:00=1516.9",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-16 22:00:00=1946.7 -> 2026-06-16 22:30:00=1714.7",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-16 22:30:00=1714.7 -> 2026-06-16 23:00:00=1300.2",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 00:00:00=1917.5 -> 2026-06-17 00:30:00=1713.4",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 02:00:00=2076.5 -> 2026-06-17 02:30:00=1830.4",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 02:30:00=1830.4 -> 2026-06-17 03:00:00=1792.0",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 03:00:00=1792.0 -> 2026-06-17 03:30:00=1756.4",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-16 23:30:00=1472.0 -> 2026-06-17 00:00:00=1245.5",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 00:30:00=1801.2 -> 2026-06-17 01:00:00=1180.0",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 01:30:00=1755.0 -> 2026-06-17 02:00:00=1100.1",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S001 日期 2026-06-16 电表异常: METER-A01 电表倒退: 2026-06-17 03:00:00=1595.8 -> 2026-06-17 03:30:00=1336.0",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S001",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\sensor_2026-06-16.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-15 电表异常: METER-B01 电表倒退: 2026-06-15 22:30:00=1502.9 -> 2026-06-15 23:00:00=1175.0",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-15 电表异常: METER-B01 电表倒退: 2026-06-15 23:30:00=1838.2 -> 2026-06-16 00:00:00=1370.1",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-15 电表异常: METER-B01 电表倒退: 2026-06-16 00:30:00=1494.1 -> 2026-06-16 01:00:00=1323.7",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-15 电表异常: METER-B01 电表倒退: 2026-06-16 01:30:00=2049.4 -> 2026-06-16 02:00:00=1376.2",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-15 电表异常: METER-B01 电表倒退: 2026-06-16 02:30:00=1867.7 -> 2026-06-16 03:00:00=1238.3",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R006",
+    "description": "门店 S002 日期 2026-06-16 闭店后开门记录: 2026-06-17 06:00:00 | S002 | 异常开门 | 未知",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_access.txt",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_exception.json"
+    ],
+    "suggestion": "核实开门原因",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_access.txt"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-16 23:00:00=2009.1 -> 2026-06-16 23:30:00=1866.9",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-16 23:30:00=1866.9 -> 2026-06-17 00:00:00=1714.4",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-17 00:00:00=1714.4 -> 2026-06-17 00:30:00=1345.5",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-17 01:00:00=1670.0 -> 2026-06-17 01:30:00=1177.7",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-17 02:00:00=1930.6 -> 2026-06-17 02:30:00=1822.3",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-17 02:30:00=1822.3 -> 2026-06-17 03:00:00=1564.0",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S002 日期 2026-06-16 电表异常: METER-B01 电表倒退: 2026-06-17 03:00:00=1564.0 -> 2026-06-17 03:30:00=1460.8",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S002",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表突增: 2026-06-15 22:00:00=450.0 -> 2026-06-15 22:30:00=1908.0 (比率=4.2)",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表倒退: 2026-06-15 22:30:00=1908.0 -> 2026-06-15 23:00:00=1744.3",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表倒退: 2026-06-15 23:00:00=1744.3 -> 2026-06-15 23:30:00=1450.8",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表倒退: 2026-06-16 00:00:00=1570.4 -> 2026-06-16 00:30:00=1096.9",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表倒退: 2026-06-16 01:30:00=1926.9 -> 2026-06-16 02:00:00=1470.8",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表倒退: 2026-06-16 02:00:00=1470.8 -> 2026-06-16 02:30:00=1389.3",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-15 电表异常: METER-C01 电表倒退: 2026-06-16 02:30:00=1389.3 -> 2026-06-16 03:00:00=1187.3",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-15",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-16 电表异常: METER-C01 电表倒退: 2026-06-16 22:00:00=1906.8 -> 2026-06-16 22:30:00=1142.4",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-16 电表异常: METER-C01 电表倒退: 2026-06-16 23:00:00=1771.5 -> 2026-06-16 23:30:00=1215.5",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-16 电表异常: METER-C01 电表倒退: 2026-06-17 00:30:00=1868.7 -> 2026-06-17 01:00:00=1644.1",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-16 电表异常: METER-C01 电表倒退: 2026-06-17 01:00:00=1644.1 -> 2026-06-17 01:30:00=1277.8",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "review",
+    "rule_id": "R007",
+    "description": "门店 S003 日期 2026-06-16 电表异常: METER-C01 电表倒退: 2026-06-17 02:30:00=2068.0 -> 2026-06-17 03:00:00=1292.8",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+    ],
+    "suggestion": "检查电表读数是否正确",
+    "store_id": "S003",
+    "date": "2026-06-16",
+    "file_path": "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_sensor.csv"
+  },
+  {
+    "severity": "blocking",
+    "rule_id": "R010",
+    "description": "设备编号冲突: DEV-A01 出现在多家门店: S001, S002",
+    "related_files": [],
+    "suggestion": "核实设备编号归属，修正错误记录",
+    "store_id": null,
+    "date": null,
+    "file_path": null
+  },
+  {
+    "severity": "reminder",
+    "rule_id": "R011",
+    "description": "内容重复文件(哈希=e3b0c44298fc...): photo_night_2026-06-16_0100.jpg, random_file_2026-06-15.dat, S001_2026-06-15_counter.jpg, S001_2026-06-15_door.jpg, S001_2026-06-15_warehouse.png, S001_2026-06-16_counter.jpg, S001_2026-06-16_door.jpg, S001_2026-06-16_warehouse.png, S002_2026-06-15_counter.jpg, S002_2026-06-15_door.jpg, S002_2026-06-15_warehouse.png, S002_2026-06-16_counter.jpg, S002_2026-06-16_door.jpg, S002_2026-06-16_warehouse.png, S003_2026-06-15_counter.jpg, S003_2026-06-15_door.jpg, S003_2026-06-15_warehouse.png, S003_2026-06-16_counter.jpg, S003_2026-06-16_door.jpg, S003_2026-06-16_warehouse.png, store002_20260616_counter.jpg",
+    "related_files": [
+      "E:\\solo2\\projects\\t29\\sample_input\\photo_night_2026-06-16_0100.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\random_file_2026-06-15.dat",
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_counter.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_door.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-15_warehouse.png",
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_counter.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_door.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S001_2026-06-16_warehouse.png",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_counter.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_door.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-15_warehouse.png",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_counter.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_door.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S002_2026-06-16_warehouse.png",
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_counter.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_door.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-15_warehouse.png",
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_counter.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_door.jpg",
+      "E:\\solo2\\projects\\t29\\sample_input\\S003_2026-06-16_warehouse.png",
+      "E:\\solo2\\projects\\t29\\sample_input\\store002_20260616_counter.jpg"
+    ],
+    "suggestion": "重复文件已自动去重，仅保留一份",
+    "store_id": null,
+    "date": null,
+    "file_path": null
+  }
+]

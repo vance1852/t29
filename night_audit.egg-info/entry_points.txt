@@ -1,0 +1,2 @@
+[console_scripts]
+night-audit = night_audit.cli:main
