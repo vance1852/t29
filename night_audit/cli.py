@@ -51,9 +51,14 @@ def cmd_exceptions(args):
     severity_order = {Severity.BLOCKING: 0, Severity.REVIEW: 1, Severity.REMINDER: 2}
     exceptions.sort(key=lambda e: (severity_order.get(e.severity, 3), e.rule_id))
 
+    severity_icons = {
+        Severity.BLOCKING: "[X]",
+        Severity.REVIEW: "[!]",
+        Severity.REMINDER: "[i]",
+    }
     print(f"\n异常清单: 共 {len(exceptions)} 条\n")
     for e in exceptions:
-        icon = {"blocking": "🔴", "review": "🟡", "reminder": "🟢"}.get(e.severity.value, "⚪")
+        icon = severity_icons.get(e.severity, "[?]")
         print(f"{icon} [{e.severity.value.upper()}] [{e.rule_id}] {e.description}")
         if e.suggestion:
             print(f"   建议: {e.suggestion}")

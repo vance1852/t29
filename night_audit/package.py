@@ -22,9 +22,10 @@ def generate_package(
     output_dir: str,
     cutoff_hour: int = 6,
 ) -> Dict:
+    import shutil
+
     pkg_dir = Path(output_dir) / "handover_package"
     if pkg_dir.exists():
-        import shutil
         shutil.rmtree(pkg_dir)
     pkg_dir.mkdir(parents=True, exist_ok=True)
 
@@ -34,6 +35,7 @@ def generate_package(
 
     grouped = _group_by_store_date(files)
 
+    _copy_organized_materials(organized_dir, pkg_dir)
     _generate_summary_csv(grouped, exceptions, pkg_dir)
     _generate_exceptions_json(exceptions, pkg_dir)
     _copy_manifest(organized_dir, pkg_dir)
@@ -49,6 +51,35 @@ def _group_by_store_date(files: List[FileInfo]) -> Dict:
         if fi.store_id and fi.date:
             groups[fi.store_id][fi.date].append(fi)
     return groups
+
+
+def _copy_organized_materials(organized_dir: Path, pkg_dir: Path):
+    import shutil
+
+    manifest_path = organized_dir / "manifest.json"
+    if not manifest_path.exists():
+        print("  跳过材料复制: 未找到整理输出，请先运行 organize")
+        return
+
+    with open(manifest_path, "r", encoding="utf-8") as f:
+        manifest = json.load(f)
+
+    organized_dir = organized_dir.resolve()
+    count = 0
+    for entry in manifest.get("entries", []):
+        src = Path(entry["target_path"]).resolve()
+        if not src.exists():
+            continue
+        try:
+            rel = src.relative_to(organized_dir)
+        except ValueError:
+            continue
+        dst = pkg_dir / rel
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(str(src), str(dst))
+        count += 1
+
+    print(f"  复制 {count} 个材料文件到交接包")
 
 
 def _generate_summary_csv(
@@ -193,7 +224,7 @@ def _generate_report(
             if store_exc:
                 lines.append("**异常列表**:\n")
                 for e in store_exc:
-                    icon = {"blocking": "🔴", "review": "🟡", "reminder": "🟢"}.get(e.severity.value, "⚪")
+                    icon = {"blocking": "[X]", "review": "[!]", "reminder": "[i]"}.get(e.severity.value, "[?]")
                     lines.append(f"- {icon} [{e.rule_id}] {e.description}")
                     if e.suggestion:
                         lines.append(f"  - 建议: {e.suggestion}")
